@@ -1,0 +1,21 @@
+Study the main classes in reverse chronological order.
+
+
+
+
+Study build.gradle and look for all the dependencies used.
+Explore data package and the implementations of helper classes.
+ui base package creates the base implementations of Activity, Fragment, SubView and Presenter. All other related components should be derived from these classes.
+di package is the dependency providing classes for the application. To understand dependency injection, go through the two-part article published by me, Dagger2 part 1 and Dagger2 part 2
+Resources: Styles, fonts, drawable.
+
+
+
+RxJava2: https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
+Dagger2: https://github.com/MindorksOpenSource/android-dagger2-example
+FastAndroidNetworking: https://github.com/amitshekhariitbhu/Fast-Android-Networking
+PlaceHolderView: https://github.com/janishar/PlaceHolderView
+AndroidDebugDatabase: https://github.com/amitshekhariitbhu/Android-Debug-Database
+Calligraphy: https://github.com/chrisjenx/Calligraphy
+GreenDao: http://greenrobot.org/greendao/
+ButterKnife: http://jakewharton.github.io/butterknife/
